@@ -1,0 +1,82 @@
+body{
+	background-color: #7C7575;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: Copperplate;
+	font-size: 80px;
+}
+
+.portfolio {
+	width: 80%;
+	background-color: #DFD3D3;
+	margin-left: auto;
+	margin-right: auto; 
+	height: 98vh;
+	
+}
+
+.name {
+	display: inline-block;
+	text-align: center;
+	width: 44%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+.namePrev {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.startPhoto {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.section {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textToLeft {
+	text-align: left;
+}
+
+.textToRight {
+	text-align: right;
+}
+
+.sections {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr {
+	height: 2px;
+  	background-color: #B8B0B0;
+  	border-color: #B8B0B0;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
