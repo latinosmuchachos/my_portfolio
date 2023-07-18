@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required /> </label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required /> </label>
+        <label id="number-label" for="number">Age(optional) <input id="number" type="number" min="0" max="100" placeholder="Age" /> </label>
+      </fieldset>
+
+      <fieldset>
+        Would you recommend freeCodeCamp to a friend?
+        <label id="definitely-label" for="definitely">
+          <input type="radio" id="definitely" name="recommend to friends" value="definitely" class="inline" required/>Definitely
+        </label>
+        <label id="definitely-label" for="maybe">
+          <input type="radio" id="maybe" name="recommend to friends" value="maybe" class="inline" required/>Maybe
+        </label>
+        <label id="definitely-label" for="not_sure">
+          <input type="radio" id="not_sure" name="recommend to friends" value="not_sure" class="inline"required/>Not sure
+        </label>
+      </fieldset>
+      <fieldset>
+        What is your favorite feature of freeCodeCamp?
+        <label for="dropdown">
+          <select id="dropdown" name="favorite_future">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        What would you like to see improved? (Check all that apply)
+        <label for="front">
+          <input type="checkbox" value="front" class="inline" id="front">Front-end Projects </input>
+        </label>
+        <label for="back">
+          <input type="checkbox" value="back" class="inline" id="back">Back-end Projects </input>
+        </label>
+        <label for="data">
+          <input type="checkbox" value="data" class="inline" id="data">Data Visualization </input>
+        </label>
+        <label for="challenges">
+          <input type="checkbox" value="challenges" class="inline" id="challenges">Challenges </input>
+        </label>
+        <label for="open_source">
+          <input type="checkbox" value="open_source" class="inline" id="open_source">Open Source Community </input>
+        </label>
+        <label for="gitter">
+          <input type="checkbox" value="gitter" class="inline" id="gitter">Gitter help rooms </input>
+        </label>
+        <label for="videos">
+          <input type="checkbox" value="videos" class="inline" id="videos">Videos </input>
+        </label>
+        <label for="wiki">
+          <input type="checkbox" value="wiki" class="inline" id="wiki">Wiki </input>
+        </label>
+        <label for="forum">
+          <input type="checkbox" value="forum" class="inline" id="forum">Forum </input>
+        </label>
+        <label for="courses">
+          <input type="checkbox" value="courses" class="inline" id="courses">Additional Courses </input>
+        </label>
+      </fieldset>
+      <fieldset>
+        Any comments or suggestions?
+        <label for="comment">
+          <textarea id="comment" type="text" placeholder="Enter your comment here..." rows="3" cols="30">
+            </textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+  </body>
+</html>
